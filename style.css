@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.TopBar {
+    display: flex;
+    padding: 5px;
+}
+
+.TitleBox {
+    display: flex;
+    align-items: center;
+}
+
+.TitleBox__logo {
+    margin: 0 0.5em;
+}
+
+.TitleBox__prefix {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.TitleBox__header {
+    font-size: 1.1rem;    
+}
