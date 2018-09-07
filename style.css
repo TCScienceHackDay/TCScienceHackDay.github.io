@@ -80,6 +80,10 @@ html, body {
     font-size: 0.9em;
 }
 
+.Banner__link {
+    color: white;
+}
+
 .Location {
     display: flex;
     margin-bottom: 1em;
@@ -102,6 +106,7 @@ html, body {
 .Location__map {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .Main {
@@ -146,4 +151,51 @@ html, body {
 
 .Main__gutter {
     height: 200px;
+}
+
+.Row {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.Column__largeLeft {
+    margin-right: 1em;
+}
+
+.Column__smallRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .Row {
+        display: block;
+        margin-bottom: 1em;
+    }
+
+    .Column__largeLeft {
+        margin-bottom: 1em;
+    }
+    
+    .Column__smallRight {
+        margin-bottom: 1em;
+    }
+}
+
+.Register {
+    border-radius: 5px;
+    color: #E2E2E2;
+    background-color: #EE6600;
+    display: block;
+    text-align: center;
+    padding: 0.5em 1.5em;
+    margin: 0.5em auto 0 auto;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+.Register:hover {
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
